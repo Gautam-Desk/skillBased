@@ -9,11 +9,15 @@ export function ExperienceSection({ experience }) {
       {experience.map((exp) => (
         <article className="timeline-entry" key={exp.title}>
           <div className="entry-header">
-            <strong>{exp.title}</strong>
-            <time dateTime={exp.dateTime || exp.period}>{exp.period}</time>
+            <h3 className="entry-title">{exp.title}</h3>
+            <time className="entry-time" dateTime={exp.dateTime || exp.period}>{exp.period}</time>
           </div>
           <div className="entry-sub">
-            <em>{exp.role} &bull; {exp.stack}</em>
+            <span className="entry-role-stack">
+              <span className="entry-role">{exp.role}</span>
+              <span className="entry-sep">&bull;</span>
+              <span className="entry-tech">{exp.stack}</span>
+            </span>
             {exp.link && (
               <a href={exp.link} target="_blank" rel="noreferrer" className="entry-link">
                 {exp.link.replace('https://', '')}

@@ -8,8 +8,8 @@ export function SkillsSection({ skills }) {
       <div className="skills-container">
         {skills.map((s) => (
           <div className="skills-row" key={s.category}>
-            <strong>{s.category}: </strong>
-            <span>{s.items}</span>
+            <span className="skills-label">{s.category}:</span>
+            <span className="skills-items">{s.items}</span>
           </div>
         ))}
       </div>

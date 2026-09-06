@@ -17,7 +17,6 @@ export function Toolbar({
   return (
     <nav className="resume-toolbar" role="toolbar" aria-label="Resume controls and actions">
       <div className="toolbar-info">
-        <span className="status-badge" aria-label="ATS friendly layout certified">ATS-Friendly</span>
         <span className="toolbar-title">Gautam Kumar &bull; Resume</span>
       </div>
 

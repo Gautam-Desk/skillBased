@@ -9,12 +9,12 @@ export function EducationSection({ education }) {
       {education.map((edu) => (
         <article className="timeline-entry" key={edu.institution + edu.degree}>
           <div className="entry-header">
-            <strong>{edu.institution}</strong>
+            <h3 className="entry-title">{edu.institution}</h3>
             <span className="entry-loc">{edu.location}</span>
           </div>
           <div className="entry-sub">
-            <em>{edu.degree}</em>
-            <time dateTime={edu.dateTime || edu.period}>{edu.period}</time>
+            <span className="entry-degree">{edu.degree}</span>
+            <time className="entry-time" dateTime={edu.dateTime || edu.period}>{edu.period}</time>
           </div>
           {edu.id && <span className="education-id">College ID: {edu.id}</span>}
           <p className="coursework-info">{edu.details}</p>
