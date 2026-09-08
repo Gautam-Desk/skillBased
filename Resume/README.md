@@ -52,7 +52,7 @@ Vite will print the local development URL in the terminal, usually `http://local
 
 ## Customizing Resume Content
 
-Resume content is defined in the `RESUME_DATA` object near the top of `src/App.jsx`. Update the personal details, skills, experience, certifications, and education there. Styling and print behavior are maintained in `src/App.css` and `src/index.css`.
+Resume content is defined in the `RESUME_DATA` object in `src/data/resumeData.js`. Update the personal details, skills, experience, certifications, and education there. Styling and print behavior are maintained in `src/App.css` and `src/index.css`.
 
 Do not place passwords, API keys, tokens, or other private credentials in the source code. Local environment files and common credential formats are excluded by the repository `.gitignore`.
 

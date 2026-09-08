@@ -55,7 +55,7 @@ function App() {
 
     text += `TECHNICAL SKILLS\n----------------------------------------\n`
     skills.forEach((s) => {
-      text += `${s.category}: ${s.items}\n`
+      text += `${s.category}: ${s.items.join(', ')}\n`
     })
     text += `\n`
 

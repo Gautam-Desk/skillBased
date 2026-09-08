@@ -1,7 +1,7 @@
 export const RESUME_DATA = {
   personal: {
     name: "GAUTAM KUMAR",
-    role: "Software Engineer | Full-Stack & Systems Developer",
+    role: "Software Engineer | Full-Stack Developer",
     phone: "+91 7870645246",
     email: "gautamsinghh31@gmail.com",
     location: "Madhubani, Bihar, India",
@@ -17,44 +17,49 @@ export const RESUME_DATA = {
     gfgDisplay: "geeksforgeeks.org/user/gautams31",
 
     summary:
-      "Computer Science undergraduate pursuing a B.Tech in CSE at United Institute of Technology (2025–2029) " +
-      "alongside a Minor in AI & Data Science from IIT Mandi CCE. Experienced in building full-stack applications " +
-      "with React.js, Node.js, Express, and MongoDB, deployed via automated CI/CD pipelines on Vercel. " +
-      "Completed prompt engineering study with Outskill, leveraging advanced generative AI prompting techniques for developer workflows. " +
+      "Computer Science undergraduate pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE) " +
+      "at United Institute of Technology (2025–2029) alongside a Minor in Artificial Intelligence (AI) & Data Science " +
+      "from the Centre for Continuing Education (CCE), Indian Institute of Technology Mandi (IIT Mandi). Experienced in " +
+      "building full-stack applications with React.js, Node.js, Express, and MongoDB, deployed via automated Continuous " +
+      "Integration and Continuous Deployment (CI/CD) pipelines on Vercel. Completed prompt engineering study with Outskill, leveraging advanced generative AI prompting techniques for developer workflows. " +
       "Proficient in Data Structures & Algorithms with active problem solving in C, C++, and Python on " +
       "LeetCode and GeeksforGeeks, alongside hands-on machine learning pipelines in Python."
   },
   skills: [
     {
-      category: "Languages",
-      items: "C, C++, Python, JavaScript, HTML, CSS"
+      category: "Programming Languages",
+      items: ["C", "C++", "Python", "JavaScript"]
     },
     {
-      category: "Frontend",
-      items: "React.js, Vite, Tailwind CSS / Modern CSS3"
+      category: "Web Technologies",
+      items: ["HTML", "CSS", "React.js", "Vite"]
     },
     {
-      category: "Backend & DB",
-      items: "Node.js, Express, MongoDB, REST APIs"
+      category: "Backend Development",
+      items: ["Node.js", "Express.js", "Representational State Transfer (REST) APIs"]
     },
     {
-      category: "ML & Data Science",
-      items: "Python (Pandas, NumPy, Matplotlib, Scikit-Learn), EDA"
+      category: "Databases",
+      items: ["MongoDB"]
+    },
+    {
+      category: "Data Science & Machine Learning (ML)",
+      items: ["Pandas", "NumPy", "Matplotlib", "Scikit-Learn"]
     },
     {
       category: "Core Computer Science",
-      items: "Data Structures & Algorithms (DSA), OOP, DBMS, OS"
+      items: ["Data Structures & Algorithms (DSA)"]
     },
     {
-      category: "Developer Tools & AI",
-      items: "Git, GitHub, Vercel, VS Code, Linux, Prompt Engineering (Outskill)"
+      category: "Developer Tools & Artificial Intelligence (AI)",
+      items: ["Git", "GitHub", "Docker", "Vercel", "VS Code", "Linux", "Prompt Engineering (Outskill)"]
     }
   ],
   experience: [
     {
       title: "Skill-Based Developer Portfolio & Resume Engine",
       role: "Lead Full-Stack Developer",
-      stack: "React, Vite, Node.js, Express, CSS3",
+      stack: "React, Vite, Node.js, Express, MongoDB, CSS3",
       period: "2025 – 2026",
       dateTime: "2025/2026",
       link: "https://github.com/Gautam-Desk/Skill-Based",
@@ -66,7 +71,7 @@ export const RESUME_DATA = {
     },
     {
       title: "DSproject — Machine Learning & Data Science Pipelines",
-      role: "ML Developer",
+      role: "Machine Learning (ML) Developer",
       stack: "Python, Scikit-Learn, Pandas, NumPy, Matplotlib",
       period: "2025",
       dateTime: "2025",
@@ -104,8 +109,8 @@ export const RESUME_DATA = {
   ],
   certifications: [
     {
-      title: "Minor in AI & Data Science",
-      issuer: "IIT Mandi CCE & NSDC Verified Credential",
+      title: "Minor in Artificial Intelligence (AI) & Data Science",
+      issuer: "Indian Institute of Technology Mandi Centre for Continuing Education (IIT Mandi CCE) & National Skill Development Corporation (NSDC) Verified Credential",
       meta: "Ref: IITMD_DSAI_2503437"
     },
     {
@@ -116,7 +121,7 @@ export const RESUME_DATA = {
     {
       title: "Full-Stack Web Deployments",
       issuer: "Vercel Global Edge Network",
-      meta: "Automated CI/CD Pipelines"
+      meta: "Automated Continuous Integration and Continuous Deployment (CI/CD) Pipelines"
     },
     {
       title: "Prompt Engineering & AI Prompting",
@@ -137,20 +142,20 @@ export const RESUME_DATA = {
         "Database Management Systems (DBMS), Operating Systems."
     },
     {
-      institution: "Centre for Continuing Education (CCE), IIT Mandi",
+      institution: "Centre for Continuing Education (CCE), Indian Institute of Technology Mandi (IIT Mandi)",
       location: "Himachal Pradesh",
       degree: "Minor in Artificial Intelligence & Data Science Program",
       period: "2025 – 2026",
       dateTime: "2025/2026",
       id: "IITMD_DSAI_2503437",
       details:
-        "Co-issued with NSDC & Masai. Covers Data Science, Machine " +
+        "Co-issued with the National Skill Development Corporation (NSDC) & Masai. Covers Data Science, Machine " +
         "Learning, and Deep Learning Fundamentals."
     },
     {
       institution: "H.B.J. College & Mount Carmel English School",
       location: "Madhubani, Bihar",
-      degree: "Senior Secondary (XII, Science - BSEB) & Secondary (X - CBSE)",
+      degree: "Senior Secondary (Class XII, Science - Bihar School Examination Board (BSEB)) & Secondary (Class X - Central Board of Secondary Education (CBSE))",
       period: "2021 – 2025",
       dateTime: "2021/2025",
       details:

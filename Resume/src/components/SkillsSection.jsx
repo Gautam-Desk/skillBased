@@ -9,7 +9,7 @@ export function SkillsSection({ skills }) {
         {skills.map((s) => (
           <div className="skills-row" key={s.category}>
             <span className="skills-label">{s.category}:</span>
-            <span className="skills-items">{s.items}</span>
+            <span className="skills-items">{s.items.join(', ')}</span>
           </div>
         ))}
       </div>
