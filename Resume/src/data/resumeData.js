@@ -21,7 +21,7 @@ export const RESUME_DATA = {
       "at United Institute of Technology (2025–2029) alongside a Minor in Artificial Intelligence (AI) & Data Science " +
       "from the Centre for Continuing Education (CCE), Indian Institute of Technology Mandi (IIT Mandi). Experienced in " +
       "building full-stack applications with React.js, Node.js, Express, and MongoDB, deployed via automated Continuous " +
-      "Integration and Continuous Deployment (CI/CD) pipelines on Vercel. Completed prompt engineering study with Outskill, leveraging advanced generative AI prompting techniques for developer workflows. " +
+      "Integration and Continuous Deployment (CI/CD) pipelines on Vercel. Completed prompt engineering study with Outskill, leveraging advanced generative AI prompting techniques for developer workflows, and explored basic retrieval-augmented generation (RAG) system design with document ingestion, embeddings, and grounded answer generation. " +
       "Proficient in Data Structures & Algorithms with active problem solving in C, C++, and Python on " +
       "LeetCode and GeeksforGeeks, alongside hands-on machine learning pipelines in Python."
   },
@@ -52,10 +52,23 @@ export const RESUME_DATA = {
     },
     {
       category: "Developer Tools & Artificial Intelligence (AI)",
-      items: ["Git", "GitHub", "Docker", "Vercel", "VS Code", "Linux", "Prompt Engineering (Outskill)"]
+      items: ["Git", "GitHub", "Docker", "Vercel", "VS Code", "Linux", "Prompt Engineering (Outskill)", "Basic RAG System Building"]
     }
   ],
   experience: [
+    {
+      title: "Basic Retrieval-Augmented Generation (RAG) System",
+      role: "AI Application Builder",
+      stack: "Python, LangChain, Embeddings, Vector Search, OpenAI API, Streamlit",
+      period: "2026",
+      dateTime: "2026",
+      link: "https://github.com/Gautam-Desk",
+      bullets: [
+        "Built a basic RAG pipeline that ingests local documents, converts them into embeddings, and retrieves the most relevant context for question answering.",
+        "Connected retrieval and generation flow to produce grounded responses with source-aware context instead of relying only on model memory.",
+        "Explored chunking, vector storage, and prompt construction patterns to improve answer quality in AI-powered knowledge assistants."
+      ]
+    },
     {
       title: "Skill-Based Developer Portfolio & Resume Engine",
       role: "Lead Full-Stack Developer",
